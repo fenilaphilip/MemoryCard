@@ -8,16 +8,37 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 .about-cards{
     background-color: #ccccff;
+    border-radius: 5em 5em;
+    border-color: white;
+    border-style: solid;
+
 }
 .top-banner{
     background-color: #ccff99;
+    border-radius: 5em 5em;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
 }
 .card-heading{
     font-size: 30px;
     font-style: italic;
     text-align: center;
-
+    background-color:#ccffcc;
+    border-radius: 5em 5em;
+    border-color: white;
+    border-style: solid;
 }
 .game-space{
     background-color:#ffccff;
+    border-radius: 5em 5em;
+    border-color: white;
+    border-style: solid;
+    text-align:center;
+    font-size: 150%;
+    color:red;
+}
+#show-de,#show-en{
+    color:blue;
+    font-size: 300%;
 }
