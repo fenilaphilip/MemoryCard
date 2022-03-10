@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 9, 2022, 1:12:41 PM
+    Author     : fenila
+*/
+.about-cards{
+    background-color: #ccccff;
+}
+.top-banner{
+    background-color: #ccff99;
+}
+.card-heading{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+
+}
+.game-space{
+    background-color:#ffccff;
+}
