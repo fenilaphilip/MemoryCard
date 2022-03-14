@@ -43,12 +43,49 @@ let dictionary = [
     {"de": "die Mutter", "en": "mother"},
     {"de": "der Burder", "en": "brother"},
     {"de": "die Tochter", "en": "daughter"},
-    {"de": "das Kind", "en": "child"}
+    {"de": "das Kind", "en": "child"},
+    {"de": "das Abendessen", "en": "dinner"},
+    {"de": "der kurs", "en": "course"},
+    {"de": "die Adresse", "en": "address"},
+    {"de": "die Abteilung", "en": "department"},
+    {"de": "das Alphabet", "en": "alphabet"},
+    {"de": "der Ausgang", "en": "way out"},
+    {"de": "das Auto", "en": "car"},
+    {"de": "die Banane", "en": "banana"},
+    {"de": "der Balkon", "en": "balcony"},
+    {"de": "das Bad", "en": "shower"},
+    {"de": "die Anzeige", "en": "advertisment"},
+    {"de": "der Bauch", "en": "stomach"},
+    {"de": "die Cousine", "en": "cousine(girl)"},
+    {"de": "der Dezember", "en": "December"},
+    {"de": "das Datum", "en": "date"},
+    {"de": "der Einkauf", "en": "purchase"},
+    {"de": "das Fleisch", "en": "meat"},
+    {"de": "der Fluss", "en": "river"},
+    {"de": "der Frühling", "en": "spring"},
+    {"de": "der Gruß", "en": "salutation"},
+    {"de": "das Heimatland", "en": "home Country"},
+    {"de": "das Hemd", "en": "shirt"},
+    {"de": "die Honig", "en": "honey"},
+    {"de": "die Hose", "en": "pants"},
+    {"de": "der Hund", "en": "Dog"},
+    {"de": "die Grippe", "en": "flu/fever"},
+    {"de": "der Gast", "en": "guesst"},
+    {"de": "der Film", "en": "movie"},
+    {"de": "die Kantine", "en": "canteen"},
+    {"de": "der Laptop", "en": "laptop"},
+    {"de": "die Kasse", "en": "cup"},
+    {"de": "das Internet", "en": "Internet"},
+    {"de": "der Joghurt", "en": "yogurt"},
+    {"de": "das Kino", "en": "film industry"},
+    {"de": "die Lieblingsfarbe", "en": "favorite colour"},
+    {"de": "der Kopf", "en": "head"},
+    {"de": "die kartoffel", "en": "potato"},
+    {"de": "der Käse", "en": "cheese"},
+    {"de": "das Medikament", "en": "medicine"},
+    {"de": "das Konzert", "en": "conzert"}
 ];
-
-
 let selected = -1;
-
 function pickUpde() {
     selectcard();
     document.getElementById("show-de").innerHTML = dictionary[selected].de;
@@ -56,7 +93,6 @@ function pickUpde() {
 }
 function pickUpen() {
     document.getElementById("show-en").innerHTML = dictionary[selected].en;
-
 }
 function selectcard() {
     selected++;
